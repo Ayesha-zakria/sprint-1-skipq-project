@@ -14,4 +14,4 @@ def lambda_handler(event,context):
     
     dynamodb = boto3.client('dynamodb')
     dynamodb.put_item(TableName='SkipqProjectStack-DynamoTableB2B22E15-TLRSLGXJENL2', Item={'id':{'S':metric_name},'url':{'S':url},'region':{'S':region},'timestamp':{'S':time}})
-    # why here.
+    

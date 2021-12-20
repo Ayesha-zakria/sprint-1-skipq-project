@@ -32,7 +32,7 @@ class SkipqProjectStack(cdk.Stack):
         #Creating an event after every one minute
         lambda_schedule= events_.Schedule.rate(cdk.Duration.minutes(1))
         
-        #Setting target to our New WH lambda for the event
+        #Setting target to our New  lambda for the event
         lambda_target= targets_.LambdaFunction(handler=Hwlambda)
         
         #defining rule for lambda function invokation event
