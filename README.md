@@ -12,6 +12,26 @@
 </div>
 <hr>
 
+
+
+
+
+## project description:
+
+In this project we created a weblambda which checks latency and availability of websites 
+put their metrics to cloudwatch.
+created alarms and sns notifications 
+place data in dynamodb table
+
+
+## services used:
+
+lambda
+dynamodb
+s3 bucket
+sns
+cloudwatch
+
 ## Installation steps
 
 ## Author
